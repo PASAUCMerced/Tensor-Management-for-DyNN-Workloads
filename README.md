@@ -1,3 +1,3 @@
 # Tensor-Management-for-DyNN-Workloads
 
-Idioms in operators
+Idiom-based representation in operators is in [PDF](idiom-based_representation.pdf)
