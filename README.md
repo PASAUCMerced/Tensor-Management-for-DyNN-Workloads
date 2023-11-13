@@ -37,17 +37,19 @@ project-title/
 ├── pilot_model/
 │   ├── model.py
 │   ├── train.py
-|   ├── inference.py
+│   ├── inference.py
 │   └── README.md
 │
-└── runtime_mm/
-    ├── tensor_fetch.patch
-    └── README.md
+│── runtime_mm/
+│   ├── tensor_fetch.patch
+│   └── README.md
+│
+└── DyNNs
 ```
 
 ### Folder Descriptions
-1. **Folder_1_Name**
-   - **Description**: Brief description of what this folder contains and its purpose.
+1. **idioms_based_representation_for_op**
+   - **Description**: The idiom_based 
    - **Contents**: Key files or subfolders.
 
 2. **Folder_2_Name**
