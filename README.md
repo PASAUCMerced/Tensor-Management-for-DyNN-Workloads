@@ -29,20 +29,20 @@ Below is an overview of the main folders and their hierarchy in this project:
 ```
 project-title/
 │
-├── Folder_1_Name/
-│   ├── Subfolder_1
-│   ├── Subfolder_2
-│   └── file1.ext
+├── idioms_based_representation_for_op/
+│   ├── idiom_generating_tool
+│   ├── idiom-based_representation.pdf
+│   └── README.md
 │
-├── Folder_2_Name/
-│   ├── Subfolder_1
-│   ├── Subfolder_2
-│   └── file2.ext
+├── pilot_model/
+│   ├── model.py
+│   ├── train.py
+|   ├── inference.py
+│   └── README.md
 │
-└── Folder_3_Name/
-    ├── Subfolder_1
-    ├── Subfolder_2
-    └── file3.ext
+└── runtime_mm/
+    ├── tensor_fetch.patch
+    └── README.md
 ```
 
 ### Folder Descriptions
@@ -61,10 +61,10 @@ project-title/
 ## Publication
 ```
 @article {dynn-offload24,
-	author = {},
+	author = {Jie Ren, Dong Xu, Shuangyan Yang, Jiacheng Zhao, Zhicheng Li, Christian Navasca, Chenxi Wang, Harry Xu, and Dong Li. },
 	title = {Enabling Large Dynamic Neural Network Training with Learning-based Memory Managemen},
 	year = {2024},
-	publisher = {HPCA}
+	publisher = {In 30th International Symposium on High-Performance Computer Architecture.}
 }
 ```
 
