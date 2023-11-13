@@ -3,7 +3,7 @@
 # Enabling Large Dynamic Neural Network Training with Learning-based Memory Management
 
 ## Introduction
-
+The project working on using a learning based method to enable Dynamic Neural Networks (DyNN) 
 
 
 ## Table of Contents
