@@ -3,7 +3,8 @@
 # Enabling Large Dynamic Neural Network Training with Learning-based Memory Management
 
 ## Introduction
-The project working on using a learning based method to enable Dynamic Neural Networks (DyNN) 
+The project uses a learning-based method to enable tensor offloading for Dynamic Neural Networks (DyNN) training. Due to the dynamics of DyNNs, the repeatability of neural network training no longer exists. We propose a novel learning-based method to address the dynamism in DyNNs. Specifically, we leverage program idioms defined in terms of memory access patterns to encode the model architecture of various DyNNs. Furthermore, we use a neural network, termed the pilot model, to increase the predictability of tensor accesses in DyNNs, thereby facilitating memory management.
+
 
 
 ## Table of Contents
@@ -67,7 +68,6 @@ project-title/
 	title = {Enabling Large Dynamic Neural Network Training with Learning-based Memory Managemen},
 	year = {2024},
 	publisher = {In 30th International Symposium on High-Performance Computer Architecture.}
-}
 ```
 
 
